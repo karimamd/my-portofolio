@@ -4,7 +4,7 @@ Lets talk about something interesting : Me !
 
 I am **Kareem Abdelsalam**
 
-![my photo](me.jpeg)
+![my photo](me.jpeg =180x260)
 
 A **Data Analytics Engineer** at
 
