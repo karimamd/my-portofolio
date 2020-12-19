@@ -6,6 +6,8 @@ I am **Kareem Abdelsalam**
 
 ![My Photo](images/me.jpeg)
 
+## Technical experience
+
 A **Data Analytics Engineer** at
 
 ![Rubikal Logo](images/Rubikal.png)
@@ -17,10 +19,11 @@ Working remotely for about 2 years with our partners in the US:
 
 ![Insidetrack Logo](images/insidetrack.png)
 
-After I grab my morning coffee I checkout a branch and start writing things using
+After I grab my morning coffee I checkout a branch and start writing SQL using
+
 ![dbt Logo](images/dbt.png)
 
-that looks like :
+that usually looks like :
 ```
 {{
   config(
@@ -156,7 +159,11 @@ After passing code review and merging into our code base the table/view is mater
 
  and the tests run daily to check for assumptions about the data.
 
-It is also my responsibility to monitor our **ETL manager/ Orchestrator** which is something like Airflow and fix any problems that may come and investigate any broken assumptions.
+It is also my responsibility to monitor our **ETL manager/ Orchestrator** which is something very similar to
+
+![Airflow Logo](images/airflow.png)
+
+and fix any problems that may come and investigate any broken assumptions.
 
 
 Speaking of Data Warehouses we previously used
@@ -176,6 +183,13 @@ and
 
 ![Metabase Logo](images/metabase.png)
 
-I know what you're thinking, where can you find samples of my dashboards and charts ?
+Usually the result looks something like this:
+
+![Tableau Story](images/tableau_story.png)
+
+I know what you're thinking, where can you find more interactive samples of my dashboards and charts ?
 
 [Just click here!](https://public.tableau.com/profile/kareem.abdelsalam1054#!/)
+
+### Projects
+coming soon ! (along with teaching experience and non-technical skills)
