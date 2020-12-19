@@ -1,21 +1,21 @@
 Hello there,
 
-Lets talk about something interesting : Me !
+Let me tell you a story about someone interesting : Me !
 
 I am **Kareem Abdelsalam**
 
-![my photo](me.jpeg =180x260)
+![my photo](images/me.jpeg)
 
 A **Data Analytics Engineer** at
 
-![Rubikal Logo](Rubikal.png)
+![Rubikal Logo](images/Rubikal.png)
 
 Working remotely for about 2 years with our partners in the US:
 
 
-![Concentrical Logo](concentrical.jpeg)
+![Concentrical Logo](images/concentrical.jpeg)
 
-![Insidetrack Logo](insidetrack.png)
+![Insidetrack Logo](images/insidetrack.png)
 
 After I grab my morning coffee I checkout a branch and start writing things like this (yes it is the cool **dbt jinja-SQL** in the flesh):
 ```
@@ -91,6 +91,12 @@ models:
             values: [TRUE, FALSE]
             quote: false
 
+      - name: first_name
+        description: string column showing name of the action taker
+        tests:
+        - trimmed_spaces
+
+
     tests:
       - dbt_utils.expression_is_true:
           expression: "price >= 0"
@@ -100,6 +106,56 @@ models:
 
 but it is not always this easy, is it ?
 
+AS you can see above we needed a **custom schema test/ macro** to check for string columns coming from backend without leading or trailing spaces (so that we could easily group by them)
+
+implementation:
+```
+{% macro test_trimmed_spaces(model, column_name) %}
+
+WITH untrimmed AS (
+    SELECT
+        DISTINCT COALESCE({{ column_name }}, '') as untrimmed_name
+
+    FROM {{ model }}
+
+),
+trimmed AS (
+
+    SELECT
+        DISTINCT TRIM( COALESCE({{ column_name }}, '') ) as trimmed_name
+
+    FROM {{ model }}
+)
+SELECT
+    COUNT(*)
+FROM
+    untrimmed
+LEFT JOIN
+    trimmed
+ON
+    untrimmed.untrimmed_name = trimmed.trimmed_name
+WHERE
+    trimmed_name IS NULL
+{% endmacro %}
+```
 This is just a sample of fully covering the columns with documentation, explanation and tests that communicate and check for assumptions about the data.
 
 Other custom data and schema tests are written to guarantee data integrity for our customers and to alert us if any error happens.
+
+After passing code review and merging into our code base the table/view is materialized in
+![Snowflake Logo](images/snowflake.png)
+ and the tests run daily to check for assumptions about the data.
+
+It is also my responsibility to monitor our **ETL manager/ Orchestrator** which is something like Airflow and fix any problems that may come and investigate any broken assumptions.
+
+
+Speaking of Data Warehouses we previously used ![Redshift Logo](images/redshift.png)
+so I am experienced with that as well :)
+
+
+No I am not done yet !
+
+The rest of my role is building charts and dashboards for our clients in
+![Tableau Logo](images/tableau.png)
+and
+![Metabase Logo](images/metabase.png)
