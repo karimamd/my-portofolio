@@ -4,7 +4,7 @@ Let me tell you a story about someone interesting : Me !
 
 I am **Kareem Abdelsalam**
 
-![my photo](images/me.jpeg)
+![My Photo](images/me.jpeg)
 
 A **Data Analytics Engineer** at
 
@@ -17,7 +17,10 @@ Working remotely for about 2 years with our partners in the US:
 
 ![Insidetrack Logo](images/insidetrack.png)
 
-After I grab my morning coffee I checkout a branch and start writing things like this (yes it is the cool **dbt jinja-SQL** in the flesh):
+After I grab my morning coffee I checkout a branch and start writing things using
+![dbt Logo](images/dbt.png)
+
+that looks like :
 ```
 {{
   config(
@@ -25,23 +28,28 @@ After I grab my morning coffee I checkout a branch and start writing things like
     materialized: table
   )
 }}
+
 WITH fact_table AS (
   SELECT * FROM {{ref('fact_table_name')}} WHERE [condition]
   ),
 
 dimention_table_1 AS (
   SELECT
-  {{ dbt_utils.star(
-      from=ref('dimention_table_1_name'),
-      except=[UNWANTED_COLUMN_NAMES],
-      , relation_alias='d1'
-      )}},
-   FROM {{ref('dimention_table_1_name')}} AS d1 WHERE [condition]
+    {{ dbt_utils.star(
+        from=ref('dimention_table_1_name'),
+        except=[UNWANTED_COLUMN_NAMES],
+        , relation_alias='d1'
+        )}},
+   FROM
+      {{ref('dimention_table_1_name')}} AS d1
+   WHERE
+      [condition]
   ),
 
 dimention_table_2 AS (
   SELECT * FROM {{ref('dimention_table_2_name')}} WHERE [condition]
   ),
+
 final AS (
   SELECT
     f.col1,
@@ -67,7 +75,7 @@ SELECT * FROM final
   ```
 
 
-then onto **cool_data_mart_name.yml**
+Now onto **cool_data_mart_name.yml** to write some tests and documentation !
 
 ```
 version: 2
@@ -76,7 +84,7 @@ models:
   - name: cool_data_mart_name
     columns:
       - name: id
-      description: unique identifier of record
+        description: unique identifier of record
         tests:
           - unique
           - not_null
@@ -87,14 +95,14 @@ models:
       - name: is_condition
         description: boolean column shows some condition is true or false
         tests:
-        - accepted_values:
-            values: [TRUE, FALSE]
-            quote: false
+          - accepted_values:
+              values: [TRUE, FALSE]
+              quote: false
 
       - name: first_name
         description: string column showing name of the action taker
         tests:
-        - trimmed_spaces
+          - trimmed_spaces
 
 
     tests:
@@ -143,19 +151,31 @@ This is just a sample of fully covering the columns with documentation, explanat
 Other custom data and schema tests are written to guarantee data integrity for our customers and to alert us if any error happens.
 
 After passing code review and merging into our code base the table/view is materialized in
+
 ![Snowflake Logo](images/snowflake.png)
+
  and the tests run daily to check for assumptions about the data.
 
 It is also my responsibility to monitor our **ETL manager/ Orchestrator** which is something like Airflow and fix any problems that may come and investigate any broken assumptions.
 
 
-Speaking of Data Warehouses we previously used ![Redshift Logo](images/redshift.png)
+Speaking of Data Warehouses we previously used
+
+ ![Redshift Logo](images/redshift.png)
+
 so I am experienced with that as well :)
 
 
 No I am not done yet !
 
 The rest of my role is building charts and dashboards for our clients in
+
 ![Tableau Logo](images/tableau.png)
+
 and
+
 ![Metabase Logo](images/metabase.png)
+
+I know what you're thinking, where can you find samples of my dashboards and charts ?
+
+[Just click here!](https://public.tableau.com/profile/kareem.abdelsalam1054#!/)
