@@ -11,7 +11,11 @@ A **Data Analytics Engineer** at
 ![Rubikal Logo](Rubikal.png)
 
 Working remotely for about 2 years with our partners in the US:
-![Insidetrack Logo](insidetrack.png) ![Concentrical Logo](concentrical.jpeg)
+
+
+![Concentrical Logo](concentrical.jpeg)
+
+![Insidetrack Logo](insidetrack.png)
 
 After I grab my morning coffee I checkout a branch and start writing things like this (yes it is the cool **dbt jinja-SQL** in the flesh):
 ```
