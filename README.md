@@ -4,7 +4,7 @@ Let me tell you a story about someone interesting : Me !
 
 I am **Kareem Abdelsalam**
 
-![My Photo](images/me.jpeg)
+![My Photo](images/myphoto.jpg)
 
 ## Technical experience
 
@@ -192,4 +192,36 @@ I know what you're thinking, where can you find more interactive samples of my d
 [Just click here!](https://public.tableau.com/profile/kareem.abdelsalam1054#!/)
 
 ### Projects
-coming soon ! (along with teaching experience and non-technical skills)
+##### Product Analytics
+* Participated in defining events to track using tools like Mixpanel new products by the company and for new features in current products
+* Cleaned event data coming from tracking tools (deduplication, renaming, inferring missing values)
+* Modeled incoming data dimensionally and build custom data marts for each reporting need
+* Joined discussions about how to measure goals using available data and communicated data limitations to Product team and management
+* Built dashboards using reporting tools
+* Tools used: dbt (data build tool)/ Jinja SQL, Tableau, Metabase, Snowflake, Amazon Redshift, Mixpanel, Fivetran
+
+##### Internal Productivity Insights
+* In less than a week our data team successfully implemented a robust pipeline to sync and report on the productivity of the whole organization
+* My role was architecting the data model of the Marts built from the loaded Jira, Github and CircleCI tables to achieve reporting needs
+* Wrote high coverage test cases to ensure data integrity
+* Participated in defining KPIs and metrics to track to help management make best use of the tracked data
+* Created the dashboards and charts in Tableau and Metabase
+* Tools used: Fivetran, Stitch, Tableau, Metabase, Amazon Redshift, SQL, Python task scheduler
+
+##### Future News and Events Prediction
+* Participated in building an intelligent large-scale Data Analytics platform that uncovers the full potential of global events and news. Powered by State-of-the-art Machine Learning models, It enables users to visualize, analyze and forecast nation-wide event data and become fully prepared for future opportunities, challenges and crises.
+* My role was developing the Machine Learning models on 600M rows of news data
+* Cleaned, modeled and Feature Engineered the dataset and enriched data with more features from other related dataset
+* Trained and tuned ML models and defined reliable performance metrics to judge model performance
+* Tested some out of the box AWS Forecasting tools
+* Cooperated with web developers in integrating the API and querying the data to show in the platform
+* Tools used: AWS Athena, AWS Glue, AWS SageMaker, AWS Forecast, Python, SQL
+
+### Teaching experience
+* I gave Machine Learning Basics courses and seminars for first and second year students in Alexandria university
+* Data Careers overview sessions explaining the roles and daily work of Data Analysts, Analytics Engineers and Data Engineers [Like this one](https://www.facebook.com/266710673366368/videos/258332225254051/) and all the series is on the same page
+* From time to time I make video tutorials in [my youtube channel](https://www.youtube.com/channel/UCFBpQk3GL2kbk8Fc589JZDQ)
+
+
+### Publishing and Research
+* During my last year in Computer Engineering Bachelor's degree I participated in the Computer Vision research lab (Pose Estimation problem )and also published a [paper on Arabic NLP](https://www.aclweb.org/anthology/W19-4626/)
