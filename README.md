@@ -4,24 +4,29 @@ Let me tell you a story about someone interesting : Me !
 
 I am **Kareem Abdelsalam**
 
-![My Photo](images/myphoto.jpg)
+
+<img src="images/myphoto.jpg" alt="My Photo" width="250" height="300">
+
 
 ## Technical experience
 
 A **Data Analytics Engineer** at
 
-![Rubikal Logo](images/Rubikal.png)
+<img src="images/Rubikal.png" alt="Rubikal Logo" width="250" height="100">
+
+</br>
 
 Working remotely for about 2 years with our partners in the US:
 
+<img src="images/concentrical.jpeg" alt="Concentrical Logo" width="150" height="100">
+<img src="images/insidetrack.png" alt="Insidetrack Logo" width="150" height="100">
 
-![Concentrical Logo](images/concentrical.jpeg)
-
-![Insidetrack Logo](images/insidetrack.png)
-
+<br><br/>
 After I grab my morning coffee I checkout a branch and start writing SQL using
+<br><br/>
 
-![dbt Logo](images/dbt.png)
+<img src="images/dbt.png" alt="dbt Logo" width="250" height="100">
+<br><br/>
 
 that usually looks like :
 ```
@@ -155,20 +160,26 @@ Other custom data and schema tests are written to guarantee data integrity for o
 
 After passing code review and merging into our code base the table/view is materialized in
 
-![Snowflake Logo](images/snowflake.png)
+<img src="images/snowflake.png" alt="Snowflake Logo" width="300" height="100">
+<br><br/>
+
 
  and the tests run daily to check for assumptions about the data.
 
 It is also my responsibility to monitor our **ETL manager/ Orchestrator** which is something very similar to
 
-![Airflow Logo](images/airflow.png)
+<img src="images/airflow.png" alt="Airflow Logo" width="300" height="100">
+<br><br/>
+
 
 and fix any problems that may come and investigate any broken assumptions.
 
 
 Speaking of Data Warehouses we previously used
 
- ![Redshift Logo](images/redshift.png)
+<img src="images/redshift.png" alt="Redshift Logo" width="300" height="100">
+<br><br/>
+
 
 so I am experienced with that as well :)
 
@@ -177,11 +188,16 @@ No I am not done yet !
 
 The rest of my role is building charts and dashboards for our clients in
 
-![Tableau Logo](images/tableau.png)
+<img src="images/tableau.png" alt="Tableau Logo" width="300" height="100">
+<br><br/>
+
 
 and
 
-![Metabase Logo](images/metabase.png)
+<img src="images/metabase.png" alt="Metabase Logo" width="300" height="100">
+<br><br/>
+
+
 
 Usually the result looks something like this:
 
