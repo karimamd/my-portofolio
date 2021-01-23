@@ -1,6 +1,6 @@
 Hello there,
 
-Let me tell you a story about someone interesting : Me !
+Let me introduce myself !
 
 I am **Kareem Abdelsalam**
 
@@ -22,7 +22,11 @@ Working remotely for about 2 years with our partners in the US:
 <img src="images/insidetrack.png" alt="Insidetrack Logo" width="150" height="100">
 
 <br><br/>
-After I grab my morning coffee I checkout a branch and start writing SQL using
+After I grab my morning coffee , I start my work with the goal of building something like this :
+<br><br/>
+![Tableau Story](images/tableau_story.png)
+<br><br/>
+So I  checkout a branch and start writing SQL using
 <br><br/>
 
 <img src="images/dbt.png" alt="dbt Logo" width="250" height="100">
@@ -198,10 +202,6 @@ and
 <br><br/>
 
 
-
-Usually the result looks something like this:
-
-![Tableau Story](images/tableau_story.png)
 
 I know what you're thinking, where can you find more interactive samples of my dashboards and charts ?
 
