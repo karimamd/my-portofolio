@@ -207,7 +207,20 @@ I know what you're thinking, where can you find more interactive samples of my d
 
 [Just click here!](https://public.tableau.com/profile/kareem.abdelsalam1054#!/)
 
+I also have experience ingesting data from multiple sources using:
+<img src="images/meltano.svg" alt="Metabase Logo" width="300" height="100">
+<br><br/>
+
 ### Projects
+##### Data Layer Building
+* I worked with [On Line Media](https://onlinemediaintl.com/)  to build their Data Layer from scratch
+* Researched different cloud warehousing solutions available and chose based on budget and client needs
+* Implemented a robust and cheap data pipeline that is based on many open source tools to ingest data from multiple sources (csv, xls, text, pdf, SQL Server)
+* Performed data transformations, cleaning and built the Data Warehouse dimensional model
+* Allowed managers to have their questions answered with data and made a loyalty system to reward customers of multiple partners
+* Tools used: Meltano, Metabase, Postgrsql, Snowflake, Heroku, Python, dbt, Airflow
+
+
 ##### Product Analytics
 * Participated in defining events to track using tools like Mixpanel new products by the company and for new features in current products
 * Cleaned event data coming from tracking tools (deduplication, renaming, inferring missing values)
@@ -231,7 +244,7 @@ I know what you're thinking, where can you find more interactive samples of my d
 * Trained and tuned ML models and defined reliable performance metrics to judge model performance
 * Tested some out of the box AWS Forecasting tools
 * Cooperated with web developers in integrating the API and querying the data to show in the platform
-* Tools used: AWS Athena, AWS Glue, AWS SageMaker, AWS Forecast, Python, SQL
+* Tools used: AWS Stack (Athena, Glue, SageMaker, Forecast, S3), Python, SQL
 
 ### Teaching experience
 * I gave Machine Learning Basics courses and seminars for first and second year students in Alexandria university
@@ -240,4 +253,4 @@ I know what you're thinking, where can you find more interactive samples of my d
 
 
 ### Publishing and Research
-* During my last year in Computer Engineering Bachelor's degree I participated in the Computer Vision research lab (Pose Estimation problem )and also published a [paper on Arabic NLP](https://www.aclweb.org/anthology/W19-4626/)
+* During my last year in Computer Engineering Bachelor's degree I participated in the Computer Vision research lab (Pose Estimation problem) and also published a [paper on Arabic NLP](https://www.aclweb.org/anthology/W19-4626/)
