@@ -10,7 +10,9 @@ I am **Kareem Abdelsalam**
 
 ## Technical experience
 
-A **Data Analytics Engineer** at
+An **Analytics Engineer** at [The Fabulous](https://www.thefabulous.co/)
+
+A **Former Data Analytics Engineer** at
 
 <img src="images/Rubikal.png" alt="Rubikal Logo" width="250" height="100">
 
@@ -212,13 +214,22 @@ I also have experience ingesting data from multiple sources using:
 <br><br/>
 
 ### Projects
-##### Data Layer Building
+
+##### Marketing Analytics
+* I worked as part of [The Fabulous](https://www.thefabulous.co/) team to build Marketing Analytics Dashboards
+* Helped User Acquisition and Marketing to Evaluate the effectiveness and ROI of spending on different ads platforms
+* Participated in process change to overcome IOS 14 privacy features blocking traditional marketing attribution reporting
+* Consolidated process for assigning conversion values and attributiing sales
+* Consolidated Marketing Reporting dashboards and made sure they are usable
+* Tools used: dbt, BigQuery, Google Data Studio, Adjust, Amplitude, Metabase
+
+##### Data Layer Building - Loyalty Phone campaigns
 * I worked with [On Line Media](https://onlinemediaintl.com/)  to build their Data Layer from scratch
 * Researched different cloud warehousing solutions available and chose based on budget and client needs
 * Implemented a robust and cheap data pipeline that is based on many open source tools to ingest data from multiple sources (csv, xls, text, pdf, SQL Server)
 * Performed data transformations, cleaning and built the Data Warehouse dimensional model
 * Allowed managers to have their questions answered with data and made a loyalty system to reward customers of multiple partners
-* Tools used: Meltano, Metabase, Postgrsql, Snowflake, Heroku, Python, dbt, Airflow
+* Tools used: Meltano, Metabase, Postgresql, Snowflake, Heroku, Python, dbt
 
 
 ##### Product Analytics
